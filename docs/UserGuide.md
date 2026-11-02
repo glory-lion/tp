@@ -1082,8 +1082,8 @@ Remove one member or the whole roster with confirmation.
 <p class="ug-topic"><strong>Confirmation and near misses</strong></p>
 
 - Only `yes`, typed exactly in lowercase, confirms (spaces before or after it are ignored).
-- Type confirmation replies manually. Pasting `y<TAB>es` (where `<TAB>` is a literal tab) displays `yes`
-  and confirms if you press Enter.
+- A pasted reply containing a tab or line break, such as `y<TAB>es` (where `<TAB>` is a literal tab), is rejected
+  and neither confirms nor cancels. Type the reply instead.
 - `y`, or `yes` in any other letter case (such as `Y`, `YES`, or `Yes`), does not confirm or cancel:
   it keeps the prompt pending and reminds you:
   `To confirm, type yes exactly, in lowercase, and press Enter, or type anything else to cancel (except yes or y in any letter case).`
